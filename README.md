@@ -26,7 +26,7 @@ and in aplication.css
 
     *= require viewer
 
-In a view you can call, assuming @course.slides contains the path to the PDF file.
+In a view you can call the following, assuming @course.slides contains the path to the PDF file.
 
     = pdf_viewer @course.slides
 
