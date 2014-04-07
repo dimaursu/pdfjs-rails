@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After bundling, add in application.js 
+
+    //= require pdfviewer
+    
+and in aplication.css 
+
+    *= require viewer
+
+In a view you can call, assuming @course.slides contains the path to the PDF file.
+
+    = pdf_viewer @course.slides
+
 
 ## Contributing
 
